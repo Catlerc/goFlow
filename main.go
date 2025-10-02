@@ -17,10 +17,6 @@ func printer(str string) {
 	println(str)
 }
 
-func printer2(str string) {
-	println("_" + str)
-}
-
 func main() {
 	input := make(chan int)
 
